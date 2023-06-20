@@ -1,0 +1,14 @@
+# This is the same programme which was implemented in RISC-V, the only difference is this programme in for x86 architecture. 
+
+
+How to run the code: 
+
+Set up your development environment: https://ccm.net/faq/1559-compiling-an-assembly-program-with-nasm#compiling-an-assembly-program-with-nasm-for-windows
+Copy the assembly code
+Open notepad
+Paste the code
+Save on your desktop as "assembly.asm"
+Hold shift, right click on your desktop, select "Open command window here" from the dropdown
+Enter the following two commands:
+nasm -f win32 assembly.asm -o test.o
+ld test.o -o assembly.exe
