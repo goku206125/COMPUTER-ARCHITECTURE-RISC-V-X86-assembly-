@@ -1,5 +1,6 @@
 # This is the same programme which was implemented in RISC-V, the only difference is this programme in for x86 architecture. 
 
+here prog.bin and error.bin are the input files in binary while result.bmp is the output file. 
 
 How to run the code: 
 
