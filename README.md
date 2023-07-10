@@ -1,5 +1,7 @@
 **Project Summary: Turtle Graphics to BMP Converter**
 
+* This project is made in RISC-V assembly and then x86(32-bit) assembly. The main purpose of this project was to get familiar with RISC-V architecture and x86 architecture. The details of project is given below
+
 This project involves creating a program that translates binary-encoded turtle graphics commands into a raster image in a BMP file format. Turtle graphics is a vector graphics system that uses a relative cursor (the "turtle") on a Cartesian plane. The turtle has three attributes: a location, an orientation (or direction), and a pen. The pen also has attributes such as color and on/off (or up/down) state.
 
 **Input:**
